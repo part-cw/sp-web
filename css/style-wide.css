@@ -1,0 +1,14 @@
+/*
+
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 14pt;
+	}
+
+	header.special {
+		padding-top: 10.5em;
+		margin-bottom: 1em;
+	}

@@ -1,0 +1,188 @@
+/* Banner */
+#banner {
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 55%;
+  padding: 150px 150px 0px 150px;
+  width: 100%;
+  -ms-behavior: url("css/ie/backgroundsize.min.htc");
+  height: 800px;
+}
+
+#banner .inner {
+  background: #341b2b;
+}
+
+/* CTA  */
+#cta {
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+  -ms-behavior: url("css/ie/backgroundsize.min.htc");
+}
+
+#cta li a, .8u li a {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.8u li a:hover {
+	border-color: #ffffff;
+}
+
+#main{
+  width:100%;
+  padding:0!important;
+}
+#skel-layers-wrapper{
+  width:100%;
+}
+.special{
+  background-color: rgb(243, 246, 250);
+}
+.special p, .special h4{
+  color: rgb(124, 128, 129);
+}
+.special h2{
+  color: rgb(124, 128, 129);
+}
+
+.special.style3{
+  background-color: white;
+}
+
+
+body{
+  margin: 0;
+}
+.feature-icons{
+  display:none;
+}
+
+.buttons, .icons-ie7 {
+  list-style-type: none;
+}
+
+/* Header */
+#header {
+	display: none;
+}
+
+#header-ie7 {
+	width:100%;
+	display: block;
+	color: white;
+	cursor: default;
+	font-size: 0.9em;
+	left: 0;
+	padding: .3em 1.5em;
+	position: absolute;
+	top: 0;
+	z-index: 10000;
+}
+
+	#header-ie7 nav {
+		padding: .3em 1.5em;
+		letter-spacing: 0.075em;
+		position: absolute;
+		right: 0;
+		text-transform: uppercase;
+		top: 0.75em;
+	}
+	
+		#header-ie7 nav ul {
+			width:400px;
+			list-style-type:none
+		}
+		
+		#header-ie7 nav ul li {
+			float: right;
+			margin-left: 1.5em;
+		}
+			
+			#header-ie7 nav ul li a {
+				color: #ffffff;
+				padding: 0.10em 0.75em;
+				text-decoration: none;
+			}
+			
+			#header-ie7 nav ul li .buttons {
+				font-size: 1em;
+				min-width: 0;
+				width: auto;
+			}
+			
+			#header-ie7 nav ul li .button {
+				font-size: 1em;
+				min-width: 0;
+				width: auto;
+			}
+			
+/* Buttons */
+
+a.buttons {
+	border: solid 1px transparent;
+	background: none;
+}
+
+a.buttons:hover {
+	border: solid 1px #ffffff;
+	background: none;
+}
+
+a.button.special {
+	background: #3fb1a0;
+}
+
+/* This fixes the disappearing border on the bottom of links */
+a:hover {
+	border-bottom-color: #3fb1a3;
+}
+		
+/* Social Media Icons*/
+
+.icons {
+	display: none;
+}
+
+ul.icons-ie7 {
+	display: block;
+	width:20%;
+}
+
+ul.icons-ie7 li {
+	display: inline-block;
+	float:left;
+	width:33%;
+}
+
+img.sociallinks {
+	border:0;
+	height:50px;
+}
+
+.icon.circle.fa-twitter {
+	background: transparent;
+}
+
+.icon.circle.fa-twitter:hover {
+	background: transparent;
+}
+
+.icon.circle.fa-facebook {
+	background: transparent;
+}
+
+.icon.circle.fa-facebook:hover {
+	background: transparent;
+}
+
+.icon.circle.fa-linkedin {
+	background: transparent;
+}
+
+.icon.circle.fa-linkedin:hover {
+	background: transparent;
+}
+
